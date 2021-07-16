@@ -2,22 +2,32 @@
 body { 
   /* Your code here! */
 color:#00b3e6
+
 }
 
 
 
 /* Tag selector to select all 'div' elements. We only have one 'div' in our HTML */
 div {
+    
   /* Your code here! */
-}
+    background: White;    
+    font-family: Helvetica Neue;
+    width: 700px;
+    padding: 30px
+    margin; auto
+ }
+  
 
 /* ID selector to select the element with id 'main-header' */
 #main-header {
   /* Your code here! */
+  font-size: 22px;
   color:rgb(255, 0, 0);
 }
 
 /* Class selector to select elements containing the class 'perspective-questions' */
 .perspective-questions {
   /* Your code here! */
+  font-style: italic;
 }
